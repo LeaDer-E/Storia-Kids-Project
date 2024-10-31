@@ -1,31 +1,46 @@
+
 # config.py
-
-
+'''
 PAS_List = [
-    33257, 33296, 33337, 33308, 33398, 33399, 33408, 33445, 33408, 33314, 33464
 ]
 
 
 Cst_No_Answer_List = [
-    33257, 33296, 33337, 33308, 33398, 33399, 33408, 33445, 33408, 33314, 33464
+    
     ]
 
 
 
-PCC_List = [
-     33257, 33296, 33337, 33308, 33398, 33399, 33408, 33445, 33408, 33314, 33464
-]
+# Open PCC.txt and read the data
+with open('PCC.txt', 'r') as file:
+    data = file.read().split()
+
+# Convert the data to integers
+PCC_List = list(map(int, data))
 
 
 STD_List = [
-     33257, 33296, 33337, 33308, 33398, 33399, 33408, 33445, 33408, 33314, 33464
+
 ]
 
 
 
 DW_List = [
-     33257, 33296, 33337, 33308, 33398, 33399, 33408, 33445, 33408, 33314, 33464, 
-     9999
+ 
 ]
+'''
+
+def read_file_to_list(filename):
+    with open(filename, 'r') as file:
+        return list(map(int, file.read().split()))
+
+# Read data from each text file into respective lists
+PCC_List = read_file_to_list('PCC.txt')
+PAS_List = read_file_to_list('PAS.txt')
+Cst_No_Answer_List = read_file_to_list('NoRes.txt')
+STD_List = read_file_to_list('STD.txt')
+DW_List = read_file_to_list('DW.txt')
+
+
 
 
