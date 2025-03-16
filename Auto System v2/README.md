@@ -28,7 +28,7 @@ project_root/
           └── download_story.py
 ```
 - **main.py**: Main entry point for the application.
-- **PCC.txt, PAS.txt, NoRes.txt, DW.txt, STD.txt, DWLIST.txt**: Empty text files for storing order IDs or other data (populate as needed).
+- **PCC.txt, PAS.txt, NoRes.txt, STD.txt, DWLIST.txt**: Empty text files for storing order IDs or other data (populate as needed).
 - **src/**: Contains the project's Python modules:
   - **browser.py**: Browser initialization and login functions.
   - **config.py**: Loads order lists from text files.
