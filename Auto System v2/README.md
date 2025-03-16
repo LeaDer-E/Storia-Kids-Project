@@ -53,8 +53,7 @@ project_root/
 
 ## Running the Application
 # Run the main application with:
-
-    ```bash
+   ```bash
     python main.py
     ```
 
