@@ -54,8 +54,8 @@ project_root/
 ## Running the Application
 # Run the main application with:
    ```bash
-    python main.py
-    ```
+   python main.py
+   ```
 
 ## License
 MIT License. EOF
