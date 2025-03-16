@@ -60,4 +60,3 @@ project_root/
 
 ## License
 MIT License. EOF
-
