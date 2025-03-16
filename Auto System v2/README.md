@@ -4,14 +4,15 @@ This project automates order processing tasks using Selenium with Undetected Chr
 
 ## Project Structure
 
+```plaintext
 project_root/
 ├── main.py
-├── PCC.txt         (Put Orders Here)
-├── PAS.txt         (Put Orders Here)
-├── NoRes.txt       (Put Orders Here)
-├── DW.txt          (Put Orders Here)
-├── STD.txt         (Put Orders Here)
-├── DWLIST.txt      (Put Orders Here not Sorted)
+├── PCC.txt             (Put Orders Here)
+├── PAS.txt             (Put Orders Here)
+├── NoRes.txt           (Put Orders Here)
+├── DW.txt              (don't Change any thing here it will changed Automaticly from DWLIST.txt)
+├── STD.txt             (Put Orders Here)
+├── DWLIST.txt          (Put Orders Here with any other things, it will take Orders ID only)
 ├── requirements.txt
 ├── README.md
 └── src/
@@ -25,7 +26,7 @@ project_root/
           ├── pending_another_story.py
           ├── customer_no_response.py
           └── download_story.py
-
+```
 - **main.py**: Main entry point for the application.
 - **PCC.txt, PAS.txt, NoRes.txt, DW.txt, STD.txt, DWLIST.txt**: Empty text files for storing order IDs or other data (populate as needed).
 - **src/**: Contains the project's Python modules:
