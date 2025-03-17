@@ -24,6 +24,6 @@ def login(driver):
     username_field = driver.find_element(By.NAME, 'username')
     password_field = driver.find_element(By.NAME, 'password')
     username_field.send_keys('Eslam.Mustafa')
-    password_field.send_keys('56259595625959')
+    password_field.send_keys('#Password')
     password_field.send_keys(Keys.RETURN)
     time.sleep(2)
